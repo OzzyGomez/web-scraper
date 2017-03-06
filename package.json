@@ -1,0 +1,26 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes a list of urls, of similarly structured website, from a txt file and outputs them into a json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzzyGomez/web-scraper.git"
+  },
+  "author": "Osvaldo Villagomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OzzyGomez/web-scraper/issues"
+  },
+  "homepage": "https://github.com/OzzyGomez/web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "process": "^0.11.9",
+    "q": "^1.4.1",
+    "request": "^2.80.0"
+  }
+}
